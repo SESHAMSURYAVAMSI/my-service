@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
-import { Button } from '@/app/components/ui/button';
+import { Button } from '@/components/ui/button';
 import { Play, Sparkles, ArrowRight, CheckCircle } from 'lucide-react';
 
 const ParticleBackground = () => {

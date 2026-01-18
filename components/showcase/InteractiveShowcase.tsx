@@ -2,10 +2,10 @@
 
 import { useRef, useState, Suspense } from 'react';
 import { motion } from 'framer-motion';
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/app/components/ui/card';
-import { Button } from '@/app/components/ui/button';
-import { Badge } from '@/app/components/ui/badge';
-import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/app/components/ui/tabs';
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
+import { Button } from '@/components/ui/button';
+import { Badge } from '@/components/ui/badge';
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { ZoomIn, RotateCw, Box, Cpu, Shield, Zap, Eye, Download, Star, Target, Layers, Globe } from 'lucide-react';
 
 // We'll use a static 3D scene or fallback to CSS animations if Three.js fails
